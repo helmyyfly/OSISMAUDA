@@ -87,18 +87,6 @@ a {
 img {
     width: 100%;
     color: var(--color-black);
-    transition: 3s ease;
-    -webkit-transition: 3s ease;
-    -moz-transition: 3s ease;
-    -ms-transition: 3s ease;
-    -o-transition: 3s ease;
-}
-img:hover {
-    transform: scale(.7);
-    -webkit-transform: scale(.7);
-    -moz-transform: scale(.7);
-    -ms-transform: scale(.7);
-    -o-transform: scale(.7);
 }
 
 .btn {
@@ -484,8 +472,8 @@ footer ul li a:hover {
         margin-top: 0;
     }
 
-    .header__ledt p {
-        margin-bottom: 1.3rem;
+    .header__left p {
+        margin-bottom: 1rem;
     }
 
     /* slogan */
@@ -517,7 +505,7 @@ footer ul li a:hover {
     .footer__1 p {
         margin: 1rem auto;
     }
-    .footer__Socials {
+    .footer__socials {
         justify-content: center;
     }
 }
